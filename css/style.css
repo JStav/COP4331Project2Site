@@ -1,11 +1,11 @@
 /* general styles */
+
 html, body {
   height: 100%;
   width: 100%;
 }
 
 #superbar {
-
   background-color: #0288D1;
   padding: 0;
 }

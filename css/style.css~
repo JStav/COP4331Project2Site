@@ -1,7 +1,13 @@
 /* general styles */
+
 html, body {
   height: 100%;
   width: 100%;
+}
+
+#superbar {
+  background-color: #004096;
+  padding: 0;
 }
 
 /* image rotation */
@@ -63,9 +69,9 @@ h3, h1 {
 
 /* additional sections */
 #home {
-  background: url(../images/home.jpg) no-repeat center center fixed; 
+  background: url(../images/firstImage.png) no-repeat center center fixed; 
   display: table;
-  height: 100%;
+  height: 60%;
   position: relative;
   width: 100%;
   -webkit-background-size: cover;
@@ -78,7 +84,7 @@ h3, h1 {
 }
 
 #services {
-  background-color: #306d9f;
+  background-color: #004096;
   color: #ffffff;
 }
 #services .glyphicon {
@@ -94,7 +100,7 @@ h3, h1 {
 }
 
 #information {
-  background: url(../images/estate.jpg) no-repeat center center fixed; 
+  background: url(../images/thirdImage.jpg) no-repeat center center fixed; 
   display: table;
   height: 800px;
   position: relative;
@@ -108,10 +114,6 @@ h3, h1 {
   opacity: 0.85;
 }
 
-#google_map {
-  height: 500px;
-}
-
 footer {
   padding: 20px 0;
 }
@@ -121,4 +123,14 @@ footer .glyphicon {
 }
 footer .glyphicon:hover {
   color: #306d9f;
+}
+
+.btn-default {
+    color: #fff;
+    background-color: #81ccfb;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    color: #fff;
+    background-color: #81ccfb;
 }

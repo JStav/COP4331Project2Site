@@ -6,7 +6,7 @@ html, body {
 }
 
 #superbar {
-  background-color: #0288D1;
+  background-color: #004096;
   padding: 0;
 }
 
@@ -69,7 +69,7 @@ h3, h1 {
 
 /* additional sections */
 #home {
-  background: url(../images/home.jpg) no-repeat center center fixed; 
+  background: url(../images/firstImage.png) no-repeat center center fixed; 
   display: table;
   height: 60%;
   position: relative;
@@ -84,7 +84,7 @@ h3, h1 {
 }
 
 #services {
-  background-color: #0288D1;
+  background-color: #004096;
   color: #ffffff;
 }
 #services .glyphicon {
@@ -123,4 +123,14 @@ footer .glyphicon {
 }
 footer .glyphicon:hover {
   color: #306d9f;
+}
+
+.btn-default {
+    color: #fff;
+    background-color: #81ccfb;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    color: #fff;
+    background-color: #81ccfb;
 }

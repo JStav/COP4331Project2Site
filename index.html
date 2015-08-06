@@ -3,16 +3,16 @@
 <head>
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
   <!-- Load BootStrap -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-	
-  <!-- Load Flat UI --> 
-  <link href="css/flat-ui.css" rel="stylesheet"> 
-	
+
+  <!-- Load Flat UI -->
+  <link href="css/flat-ui.css" rel="stylesheet">
+
   <!-- Load custom css -->
   <link href="css/style.css" rel="stylesheet">
-	
+
   <title>Super Sweet Studios</title>
 
 </head>
@@ -20,35 +20,34 @@
 <body>
 
   <nav id="superbar" class="navbar navbar-default navbar-inverse" role="navigation">
-   
+
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-01">
         <span class="sr-only">Toggle navigation</span>
       </button>
       <a class="navbar-brand" href="#">SS Studios</a>
-    </div>   
+    </div>
 
     <div class="collapse navbar-collapse" id="navbar-collapse-01">
       <ul class="nav navbar-nav">
         <li class="active"><a href="index.html">Home</a></li>
         <li><a href="playgame.html">Play</a></li>
-        <li><a href="#fakelink">About Us</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
-	
+
   </nav><!-- /navbar -->
-	
+
   <!-- first section -->
   <div id="home" class="home">
     <div class="text-vcenter">
       <h1><img src="images/title.png" alt=""></h1>
       <h3>Revolutionizing the board game genre.</h3>
-      <a href="#about" class="btn btn-default btn-lg">Continue</a>
+      <a href="playgame.html" class="btn btn-default btn-lg">Play</a>
     </div>
   </div>
   <!-- /first section -->
-    
-    
+
+
   <!-- second section -->
   <div id="about" class="pad-section">
     <div class="container">
@@ -56,9 +55,11 @@
         <div class="col-sm-6">
           <img src="images/gameBoard.jpg" alt="" />
         </div>
-        <div class="col-sm-6 text-center">
+        <div id="about-text" class="col-sm-6 text-center">
           <h2>Meet the game board</h2>
-          <p class="lead2">Branching from the traditional 8x8 board, Convolution </p>
+          <p class="lead2">Branching from the traditional 8x8 board, Convolution brings a new twist.
+                           Portals add a new degree of strategy that revolutionizes board games.
+                           Make jumps and fly around the board to destroy your opponet's pieces!</p>
         </div>
       </div>
     </div>
@@ -68,27 +69,29 @@
   <!-- third section -->
   <div id="services" class="pad-section">
     <div class="container">
-      <h2 class="text-center">Elements</h2> <hr />
+      <h2 class="text-center">Features</h2> <hr />
       <div class="row text-center">
         <div class="col-sm-3 col-xs-6">
-          <i class="glyphicon glyphicon-fire"> </i>
-          <h4>Fire</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in sem cras amet. Donec in sem cras amet.</p>
+          <i class="glyphicon glyphicon-record"> </i>
+          <h4>Fast Paced</h4>
+          <p>Use portals to traverse the board quickly and take pieces strategically.</p>
         </div>
         <div class="col-sm-3 col-xs-6">
-          <i class="glyphicon glyphicon-leaf"> </i>
-          <h4>Earth</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in sem cras amet. Donec in sem cras amet.</p>
+          <i class="glyphicon glyphicon-king"> </i>
+          <h4>Familiar Gameplay</h4>
+          <p>Easy to learn, hard to master. Pieces move like the king in chess: one space in any direction.</p>
         </div>
         <div class="col-sm-3 col-xs-6">
-          <i class="glyphicon glyphicon-knight"> </i>
-          <h4>Knights</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in sem cras amet. Donec in sem cras amet.</p>
+          <i class="glyphicon glyphicon-modal-window"> </i>
+          <h4>Multi-Platform</h4>
+          <p>Play on all your devices! Supports Windows, Mac, Linux, iOS, Android, and most browsers.</p>
         </div>
+
+
         <div class="col-sm-3 col-xs-6">
           <i class="glyphicon glyphicon-cloud-upload"> </i>
           <h4>Cloud</h4>
-          <p>Games are all synchronized to the cloud!</p>
+          <p>Games are all synchronized to the cloud! No time commitment required, play when you can.</p>
         </div>
       </div>
     </div>
@@ -98,14 +101,18 @@
   <!-- fourth section -->
   <div id="information" class="pad-section">
     <div class="container">
-      <div class="row">
+      <div class="row" id="testimonials">
         <div class="col-sm-6">
           <div class="panel panel-default">
             <div class="panel-heading">
-              <h2 class="panel-title">Game information</h2>
+              <h2 class="panel-title">Testimonials</h2>
             </div>
             <div class="panel-body lead">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed hendrerit adipiscing blandit. Aliquam placerat, velit a fermentum fermentum, mi felis vehicula justo, a dapibus quam augue non massa. Duis euismod, augue et tempus consequat, lorem mauris porttitor quam, consequat ultricies mauris mi a metus. Phasellus congue, leo sed ultricies tristique, nunc libero tempor ligula, at varius mi nibh in nisi. Aliquam erat volutpat. Maecenas rhoncus, neque facilisis rhoncus tempus, elit ligula varius dui, quis amet. 
+              "I'm postponing Half-Life 3 to play Convolution." - Gabe Newell
+              <br><br>
+              "This is the most fun I've had in the last 20 minutes." - Random guy we found
+              <br><br>
+              "There is no way you're going to get a quote from us." - Gamestop
             </div>
           </div>
         </div>
@@ -119,7 +126,7 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-12 text-center">
-          <h3>Ending Information</h3>
+          <h3>SS Studios</h3>
         </div>
       </div>
     </div>
@@ -137,10 +144,10 @@
 
   <!-- Load jQuery -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-	
+
   <!-- Load BootStrap js -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    
+
 </body>
 
 </html>

@@ -35,10 +35,10 @@ h2, .h2 {
 }
 
 .lead2 {
-    font-size:16px;      
+    font-size:16px;
     margin-bottom: 20px;
     font-weight: 200;
-    line-height: 1.4;  
+    line-height: 1.4;
 }
 
 /* padded section */
@@ -69,7 +69,7 @@ h3, h1 {
 
 /* additional sections */
 #home {
-  background: url(../images/firstImage.png) no-repeat center center fixed; 
+  background: url(../images/firstImage.png) no-repeat center center fixed;
   display: table;
   height: 60%;
   position: relative;
@@ -82,6 +82,11 @@ h3, h1 {
 
 #about {
 }
+
+#about-text {
+  padding-top: 180px;
+}
+
 
 #services {
   background-color: #004096;
@@ -100,7 +105,7 @@ h3, h1 {
 }
 
 #information {
-  background: url(../images/thirdImage.jpg) no-repeat center center fixed; 
+  background: url(../images/thirdImage.jpg) no-repeat center center fixed;
   display: table;
   height: 800px;
   position: relative;
@@ -112,6 +117,11 @@ h3, h1 {
 }
 #information .panel {
   opacity: 0.85;
+}
+
+#testimonials {
+  margin-left: auto ;
+  margin-right: auto ;
 }
 
 footer {
